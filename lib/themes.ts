@@ -1,0 +1,4 @@
+export type ThemeName="girl"|"boy"|"neutral";
+export const themes={girl:{label:"Peach Garden",bg:"#fff9f2",paper:"#fffdf8",ink:"#654c46",accent:"#e88372",soft:"#f8d7cf",sage:"#9bad88"},boy:{label:"Sky Adventure",bg:"#f7faf7",paper:"#fffdf8",ink:"#405661",accent:"#6f94a7",soft:"#d9e8ef",sage:"#91a789"},neutral:{label:"Little Meadow",bg:"#fbf8ed",paper:"#fffdf8",ink:"#4f5945",accent:"#d69b45",soft:"#eee3b6",sage:"#87996e"}} as const;
+export const dreams=["pilot","doctor","computer engineer","scientist","astronaut","artist","chef","teacher","athlete","president","musician","explorer","veterinarian","entrepreneur","writer"] as const;
+export const dreamEmoji:Record<string,string>={pilot:"✈️",doctor:"🩺","computer engineer":"💻",scientist:"🔬",astronaut:"🚀",artist:"🎨",chef:"🧑‍🍳",teacher:"📚",athlete:"⚽",president:"🏛️",musician:"🎵",explorer:"🧭",veterinarian:"🐾",entrepreneur:"💡",writer:"✏️"};
